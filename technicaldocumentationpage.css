@@ -1,0 +1,61 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+   font-weight: 300;
+   font-size: 13pt;
+}
+h1, h2 {
+    font-size: 15pt;
+    font-weight: 400;
+}
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 12%;
+    background-color: rgb(201, 198, 195);
+    z-index: 1;
+    text-align: center;
+    
+}
+#navbar ul {
+   text-align: left;
+   font-size: 15pt;
+}
+ #navbar li {
+    list-style: none;
+    padding: 1.2em 1em 1.2em 1.2em;
+    margin-left: -40;
+    border-top: black solid 0.1em;
+    color: inherit;
+   
+}
+.nav-link {
+    text-decoration: none;
+   
+    
+}
+ main {
+    position: relative;
+    left: 12%;
+    width: 84%;
+    padding: 2%;
+}
+section {
+    padding-bottom: 2em;
+}
+#Genre li {
+    padding: .5em 0 .5em 0;
+}
+td,
+th {
+    padding: .5em;
+}
+@media (max-width: 800px){
+    #navbar{
+        position: relative;
+
+    }
+}
